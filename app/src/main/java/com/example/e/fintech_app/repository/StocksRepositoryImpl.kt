@@ -1,7 +1,7 @@
-package com.example.e.fintech_app.stock_tickers.repository
+package com.example.e.fintech_app.repository
 
-import com.example.e.fintech_app.stock_tickers.data.StocksApi
-import com.example.e.fintech_app.stock_tickers.domain.Stock
+import com.example.e.fintech_app.data.api.StocksApi
+import com.example.e.fintech_app.domain.models.Stock
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 

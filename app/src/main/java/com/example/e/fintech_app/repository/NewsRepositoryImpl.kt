@@ -1,7 +1,7 @@
-package com.example.e.fintech_app.news.repository
+package com.example.e.fintech_app.repository
 
-import com.example.e.fintech_app.news.data.NewsApi
-import com.example.e.fintech_app.news.domain.models.Article
+import com.example.e.fintech_app.data.api.NewsApi
+import com.example.e.fintech_app.domain.models.Article
 import javax.inject.Inject
 
 private const val RECENT_NEWS_LIMIT = 6

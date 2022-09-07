@@ -1,7 +1,7 @@
-package com.example.e.fintech_app.news.data
+package com.example.e.fintech_app.data.api
 
 import android.content.Context
-import com.example.e.fintech_app.news.domain.models.Article
+import com.example.e.fintech_app.domain.models.Article
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import kotlinx.coroutines.Dispatchers

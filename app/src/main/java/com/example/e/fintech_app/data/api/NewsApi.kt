@@ -1,6 +1,6 @@
-package com.example.e.fintech_app.news.data
+package com.example.e.fintech_app.data.api
 
-import com.example.e.fintech_app.news.domain.models.Article
+import com.example.e.fintech_app.domain.models.Article
 
 interface NewsApi {
 

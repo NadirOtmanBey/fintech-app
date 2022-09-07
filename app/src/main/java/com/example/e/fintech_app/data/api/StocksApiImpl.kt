@@ -1,7 +1,7 @@
-package com.example.e.fintech_app.stock_tickers.data
+package com.example.e.fintech_app.data.api
 
 import android.content.Context
-import com.example.e.fintech_app.stock_tickers.domain.Stock
+import com.example.e.fintech_app.domain.models.Stock
 import com.opencsv.CSVReader
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
@@ -14,7 +14,7 @@ import javax.inject.Inject
 
 class StocksApiImpl @Inject constructor(
     private val context: Context
-) : StocksApi{
+) : StocksApi {
 
     private val stocks = mutableListOf<Stock>()
 

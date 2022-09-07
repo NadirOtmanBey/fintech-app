@@ -1,4 +1,4 @@
-package com.example.e.fintech_app.stock_tickers.domain
+package com.example.e.fintech_app.domain.models
 
 data class Stock (
     val symbol: String,

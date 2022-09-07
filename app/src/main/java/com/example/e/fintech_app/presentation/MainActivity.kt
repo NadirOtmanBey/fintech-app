@@ -1,4 +1,4 @@
-package com.example.e.fintech_app
+package com.example.e.fintech_app.presentation
 
 import android.os.Bundle
 import android.util.Log
@@ -10,8 +10,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
-import com.example.e.fintech_app.news.repository.NewsRepository
-import com.example.e.fintech_app.stock_tickers.repository.StocksRepository
+import com.example.e.fintech_app.repository.NewsRepository
+import com.example.e.fintech_app.repository.StocksRepository
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 import javax.inject.Inject
