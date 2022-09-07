@@ -11,5 +11,5 @@ data class ArticlesApi(
     // in this case i'll just use domain model.
 
     val status: String,
-    val articles: ArrayList<Article> = ArrayList()
+    val articles: List<Article> = listOf()
 ) : Parcelable
