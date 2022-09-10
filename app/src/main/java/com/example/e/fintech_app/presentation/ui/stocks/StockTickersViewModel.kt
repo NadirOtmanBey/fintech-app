@@ -8,7 +8,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.e.fintech_app.domain.models.Stock
 import com.example.e.fintech_app.presentation.state.ViewState
-import com.example.e.fintech_app.repository.StocksRepository
+import com.example.e.fintech_app.domain.models.repository.StocksRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flowOf

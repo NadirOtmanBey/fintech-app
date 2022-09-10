@@ -3,12 +3,12 @@ package com.example.e.fintech_app.di
 import android.content.Context
 import com.example.e.fintech_app.data.api.NewsApi
 import com.example.e.fintech_app.data.api.NewsApiImpl
-import com.example.e.fintech_app.repository.NewsRepository
-import com.example.e.fintech_app.repository.NewsRepositoryImpl
+import com.example.e.fintech_app.domain.models.repository.NewsRepository
+import com.example.e.fintech_app.data.api.repository.NewsRepositoryImpl
 import com.example.e.fintech_app.data.api.StocksApi
 import com.example.e.fintech_app.data.api.StocksApiImpl
-import com.example.e.fintech_app.repository.StocksRepository
-import com.example.e.fintech_app.repository.StocksRepositoryImpl
+import com.example.e.fintech_app.domain.models.repository.StocksRepository
+import com.example.e.fintech_app.data.api.repository.StocksRepositoryImpl
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

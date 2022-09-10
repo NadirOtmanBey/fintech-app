@@ -1,4 +1,4 @@
-package com.example.e.fintech_app.repository
+package com.example.e.fintech_app.domain.models.repository
 
 import com.example.e.fintech_app.domain.models.Stock
 import kotlinx.coroutines.flow.Flow

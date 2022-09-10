@@ -8,7 +8,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.e.fintech_app.domain.models.Article
 import com.example.e.fintech_app.presentation.state.ViewState
-import com.example.e.fintech_app.repository.NewsRepository
+import com.example.e.fintech_app.domain.models.repository.NewsRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject
