@@ -36,5 +36,6 @@ Gsn is a popular JSON processing library developed and maintained by Google for 
 
 # Unit tests
 
+<p> ✅ Stocks ViewModel unit test </p>
 
 
